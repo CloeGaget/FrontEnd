@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Les animaux</title>
+    <metaname="description" content="Voici mon zuper zoo !"/>
+    <metaname="author" content="CLOÉ">
+    <link href="style.css" rel="stylesheet" media="all" type="text/css">
+  </head>
+<body>
+  <header>
+    <h1 id='grostitre'>LE SUPER ZOO DE LA LP AW</h1>
+    <nav>
+      <!--
+      <a href='menu.html'>Menu</a>
+      <a href='activites.html'>Activités</a>
+      <a href='animaux.html'>Animaux</a>
+      <a href='audio.html'>Banque de sons</a>
+      <a href='video.html'>Scènes vidéo</a>
+      <a href='contact.html'>Contact</a>
+      -->
+      <ul class='nav'>
+          <li id='accueil'><a href='index.html'>Accueil</a></li>
+          <li id='menu'><a href='menu.html'>Menu</a></li>
+          <li id='activite'><a href='activites.html'>Activités</a></li>
+          <li id='animaux' class="possedeSousMenu activePage"><a href='animaux.html'>Animaux</a>
+            <ul class="sousMenu">
+              <li id='banquesons'><a href='audio.html'>Banque de sons</a></li>
+              <li id='scenesvideo'><a href='video.html'>Scènes vidéo</a></li>
+            </ul>
+          </li>
+          <li id='contact'><a href='contact.html'>Contact</a></li>
+      </ul>
+      </nav>
+    </header>
+    <main id="mainCenter">
+      <table summary="zoo" id="lezoo">
+        <caption>Les fabuleux animaux de ce zoo</caption>
+        <tr>
+          <th>Nom</th>
+          <th>Description</th>
+          <th>Pays natal</th>
+          <th>En savoir plus</th>
+          <th>Photo</th>
+        </tr>
+        <tr>
+          <td>Le Gomis</td>
+          <td>Un cheval à rayures</td>
+          <td>Iles Fidji</td>
+          <td><button type="button" name="button">Découvrir</button></td>
+          <td><img width="100px" src="gomis.jpg" alt="un zèbre"></td>
+        </tr>
+        <tr>
+          <td>La Neeko</td>
+          <td>Un caméléon curieux</td>
+          <td>Vastayas</td>
+          <td><button type="button" name="button">Découvrir</button></td>
+          <td><img width="100px" src="neeko.jpg" alt="une neeko"></td>
+        </tr>
+        <tr>
+          <td>Le Pierrick</td>
+          <td>Un oiseau qui mange tout</td>
+          <td>France</td>
+          <td><button type="button" name="button">Découvrir</button></td>
+          <td><img width="100px" src="pierrick.jpg" alt="une mouette"></td>
+        </tr>
+        <tr>
+          <td>La Astrid</td>
+          <td>Un rat volant</td>
+          <td>France</td>
+          <td><button type="button" name="button">Découvrir</button></td>
+          <td><img width="100px" src="astrid.jpg" alt="une chauve-souris"></td>
+        </tr>
+        <tr>
+          <td>Le Paulien</td>
+          <td>Un poisson qui saute</td>
+          <td>Sénégal</td>
+          <td><button type="button" name="button">Découvrir</button></td>
+          <td><img width="100px" src="paulien.jpeg" alt="un dauphin"></td>
+        </tr>
+        <tr>
+          <td>La Audrey</td>
+          <td>Une marmotte kawaii</td>
+          <td>Drôme</td>
+          <td><button type="button" name="button">Découvrir</button></td>
+          <td><img width="100px" src="audrey.jpg" alt="un quokka"></td>
+        </tr>
+        <tr>
+          <td>Le Téo</td>
+          <td>Un castar venimeux</td>
+          <td>La Creuse</td>
+          <td><button type="button" name="button">Découvrir</button></td>
+          <td><img width="100px" src="teo.jpg" alt="un ornithorynque"></td>
+        </tr>
+      </table>
+    </main>
+  </body>
+</html>
