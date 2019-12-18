@@ -1,0 +1,2 @@
+Seance laSeance = new Seance(Integer.parseInt(tpsprepa.getText().toString()),Integer.parseInt(tpsreposlong.getText().toString()),Integer.parseInt(repetseq.getText().toString()),Integer.parseInt(tpstravail.getText().toString()),Integer.parseInt(tpsrepos.getText().toString()),Integer.parseInt(repetcycle.getText().toString()),name.getText().toString().trim());
+        

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Visite virtuelle</title>
+    <metaname="description" content="Voici mon zuper zoo !"/>
+    <metaname="author" content="CLOÉ">
+    <link href="style.css" rel="stylesheet" media="all" type="text/css">
+  </head>
+  <body>
+    <nav>
+      <!--
+      <a href='menu.html'>Menu</a>
+      <a href='activites.html'>Activités</a>
+      <a href='animaux.html'>Animaux</a>
+      <a href='audio.html'>Banque de sons</a>
+      <a href='video.html'>Scènes vidéo</a>
+      <a href='contact.html'>Contact</a>
+      -->
+      <ul class='nav'>
+          <li id='accueil'><a href='index.html'>Accueil</a></li>
+    			<li id='menu'><a href='menu.html'>Menu</a></li>
+          <li id='activite'><a href='activites.html'>Activités</a></li>
+    			<li id='animaux' class="possedeSousMenu activePage"><a href='animaux.html'>Animaux</a>
+            <ul class="sousMenu">
+              <li id='banquesons' class='activePage'><a href='audio.html'>Banque de sons</a></li>
+        			<li id='scenesvideo'><a href='video.html'>Scènes vidéo</a></li>
+            </ul>
+          </li>
+          <li id='contact'><a href='contact.html'>Contact</a></li>
+      </ul>
+    	</nav>
+      <hr>
+      <div class="neeko">
+        <span>Le cri de la Neeko dans son milieu naturel :</span>
+        <audio controls="controls" autoplay>
+          <source src="neeko.ogg" type="audio/ogg"/>
+          Votre navigateur ne supporte pas Neeko. RIP.
+        </audio>
+      </div>
+      <br>
+      <div class="gomis">
+        <span>Le cri du Gomis dans sa savane des îles :</span>
+        <audio controls="controls">
+          <source src="gomis.mp3" type="audio/mp3"/>
+          Votre navigateur ne supporte pas l'audio.
+        </audio>
+      </div>
+      <br>
+      <div class="paulien">
+        <span>Le cri du Gomis dans sa savane des îles :</span>
+        <audio controls="controls">
+          <source src="gomis.mp3" type="audio/mp3"/>
+          Votre navigateur ne supporte pas l'audio.
+        </audio>
+      </div>
+      <br>
+      <div class="astrid">
+        <span>Le cri du Gomis dans sa savane des îles :</span>
+        <audio controls="controls">
+          <source src="gomis.mp3" type="audio/mp3"/>
+          Votre navigateur ne supporte pas l'audio.
+        </audio>
+      </div>
+      <br>
+      <div class="pierrick">
+        <span>Le cri du Pierick dans la rue :</span>
+        <a href="https://www.freesoundeffects.com/">ICI</a>
+      </div>
+  </body>
+</html>

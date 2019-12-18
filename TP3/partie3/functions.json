@@ -1,0 +1,10 @@
+
+var animal = '{"Animal":[
+  {"nom":"Le Gomis", "desc":"Un cheval à rayures", "pays":"Iles Fidji", "photo":"gomis.jpg"},
+  {"nom":"La Neeko", "desc":"Un caméléo curieux", "pays":"Vastayas", "photo":"neeko.jpg"},
+  {"nom":"Le Pierrick", "desc":"Un oiseau qui mange tout", "pays":"France", "photo":"pierrick.jpg"},
+  {"nom":"La Astrid", "desc":"Un rat volant", "pays":"France", "photo":"astrid.jpg"},
+  {"nom":"Le Paulien", "desc":"Un poisson qui saute", "pays":"Sénégal", "photo":"paulien.jpg"},
+  {"nom":"La Audrey", "desc":"Une marmotte kawaii", "pays":"Drôme", "photo":"audrey.jpg"},
+  {"nom":"Le Téo", "desc":"Un castor venimeux", "pays":"La Creuse", "photo":"teo.jpg"}
+]}';

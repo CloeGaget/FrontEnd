@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact</title>
+    <metaname="description" content="Voici mon zuper zoo !"/>
+    <metaname="author" content="CLOÉ">
+    <link href="style.css" rel="stylesheet" media="all" type="text/css">
+  </head>
+  <body>
+    <h1 id='grostitre'>LE SUPER ZOO DE LA LP AW</h1>
+    <nav>
+      <!--
+      <a href='menu.html'>Menu</a>
+      <a href='activites.html'>Activités</a>
+      <a href='animaux.html'>Animaux</a>
+      <a href='audio.html'>Banque de sons</a>
+      <a href='video.html'>Scènes vidéo</a>
+      <a href='contact.html'>Contact</a>
+      -->
+      <ul class='nav'>
+          <li id='accueil'><a href='index.html'>Accueil</a></li>
+    			<li id='menu'><a href='menu.html'>Menu</a></li>
+          <li id='activite'><a href='activites.html'>Activités</a></li>
+    			<li id='animaux' class="possedeSousMenu"><a href='animaux.html'>Animaux</a>
+            <ul class="sousMenu">
+              <li id='banquesons'><a href='audio.html'>Banque de sons</a></li>
+        			<li id='scenesvideo'><a href='video.html'>Scènes vidéo</a></li>
+            </ul>
+          </li>
+          <li id='contact' class='activePage'><a href='contact.html'>Contact</a></li>
+      </ul>
+    	</nav>
+      <hr>
+      <form class="" action="contact.html" method="post">
+        <span>Nom : </span><input type="text" name="nom" value="" required><br>
+        <span>Prénom : </span><input type="text" name="prenom" value=""><br>
+        <span>Email : </span><input type="email" name="mail" value=""><br>
+        <span>Tel : </span><input type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" name="tel" value=""><br>
+        <span>Message : </span><input type="text" name="msg" value="" required><br>
+        <input type="submit" name="envoyer" value="Envoyer">
+      </form>
+  </body>
+</html>
