@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Services</title>
+    <metaname="description" content="Voici mon zuper zoo !"/>
+    <metaname="author" content="CLOÉ">
+    <link href="style.css" rel="stylesheet" media="all" type="text/css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
+  integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+  crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
+   integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
+   crossorigin=""></script>
+    <script src="map.js"></script>
+  </head>
+  <body>
+    <h1 id='grostitre'>LE SUPER ZOO DE LA LP AW</h1>
+    <nav>
+      <!--
+      <a href='menu.html'>Menu</a>
+      <a href='activites.html'>Activités</a>
+      <a href='animaux.html'>Animaux</a>
+      <a href='audio.html'>Banque de sons</a>
+      <a href='video.html'>Scènes vidéo</a>
+      <a href='contact.html'>Contact</a>
+      -->
+      <ul class='nav'>
+          <li id='accueil'><a href='index.html'>Accueil</a></li>
+    			<li id='menu'><a href='#'>Menu</a></li>
+          <li id='service' class='activePage'><a href='services.html'>Services</a></li>
+          <li id='activite'><a href='#'>Activités</a></li>
+    			<li id='animaux' class="possedeSousMenu"><a href='#'>Animaux</a>
+            <ul class="sousMenu">
+              <li id='banquesons'><a href='#'>Banque de sons</a></li>
+        			<li id='scenesvideo'><a href='#'>Scènes vidéo</a></li>
+            </ul>
+          </li>
+          <li id='contact'><a href='#'>Contact</a></li>
+      </ul>
+    	</nav>
+      <hr>
+      <div class="services">
+        <h3> Informations : </h3>
+        <p>Le Zoo de Louise Michel a été créé en 2000</p>
+        <p>Le Zoo de Charles Munch a été créé en 2015</p>
+        <p>Le Zoo de la LP AW a été créé en 2019</p>
+      </div>
+      <div class="localisation">
+        <div id="mapid"></div>
+      </div>
+      <div class="services">
+        Contactez-nous au 01.02.03.04.05 pour plus d'informations.
+      </div>
+  </body>
+</html>
